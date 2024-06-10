@@ -1,0 +1,544 @@
+.dashboard {
+    
+    
+    background-color: #fff; /* Adjust as needed */
+    padding: 0px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(172, 233, 216);
+    padding-top: 6px; 
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px;
+  }
+  .product-add{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 175px;
+  }
+  .product-heading{
+    font-size: 20px;
+    margin-left: 3px;
+  }
+ .link-button{
+  height: 40px;
+  width: 140px;
+  background-color: rgb(91, 91, 175);
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+ }
+ .check-style{
+  height: 25px;
+  width:20px
+
+ }
+  
+ 
+  
+.image{
+    margin-right: 300px;
+    border-radius: 45px;
+}
+.input-items{
+    margin-left: 100px;
+    height: 35px;
+    width: 350px;
+    border-radius: 18px;
+    padding-left: 15px;
+    background-color:rgb(211, 237, 176);
+   
+    border-color: black;
+    color: white;
+    border-width: 1px;
+    /* background-image: url('https://static.vecteezy.com/system/resources/thumbnails/009/652/218/small/magnifying-glass-icon-isolated-on-white-background-search-illustration-vector.jpg'); */
+   
+    
+}
+
+.input-items-res{
+  display: none;
+}
+.input-items::placeholder {
+    font-size: 15px; 
+    color: black;
+    align-items: center;
+    
+  }
+  .main-bg{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+    
+  }
+  
+  /* Vendor.css */
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+
+
+ 
+
+ height: 40px;
+
+
+
+
+
+ margin-bottom: 20px;
+
+ 
+}
+
+.table th,
+.table td {
+  text-align: center;
+}
+.table th{
+  background-color: #0056b3;
+  background-color:rgb(211, 237, 176); 
+  height: 60px;
+  margin-bottom: 25px;
+}
+
+.table-body {
+  box-shadow: 0px 4px 8px lavender; 
+  height: 60px;/* Lavender color box shadow */
+  border-bottom: 3px solid lavender;
+  border: 1px  grey;
+  margin-bottom: 3px;
+}
+.button-violet{
+  background-color:rgb(95, 43, 226);
+  margin-right: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width:70px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+
+}
+.button-delete{
+  background-color: rgb(199, 12, 12);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+  width:70px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+ 
+
+
+/* Add space between columns */
+/* .table th:not(:last-child),
+.table td:not(:last-child) {
+  margin-right: 5px; /* Adjust the margin as needed */
+
+ 
+
+/* Vendor.css */
+/* Vendor.css */
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  max-height: 80vh; /* Adjust height as needed */
+  width: 0%; /* Adjust width as needed */
+  overflow-y: auto; 
+}
+
+.popup-dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+ 
+}
+
+.popup-top {
+  font-size: 1.1em;
+ 
+
+  color:black;
+  width: 180px;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 3px;
+  height: 25px;
+}
+
+
+  
+.popup-top-button-dash{
+
+  font-size: 20px;
+  cursor: pointer;
+  background-color: hsl(185, 21%, 41%);
+  width: 40px;
+  color:black;
+  border-radius: 3px;
+  padding-left: 3px;
+}
+
+
+.bottom-popup-dash{
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  margin-left: 25px;
+}
+
+.image-field-dash{
+  display: flex;
+  flex-direction: column;
+ 
+  margin-bottom: 10px;
+}
+
+.image-preview {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.remove-image-button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+   border-radius: 15px;
+}
+
+.plus-symbol {
+ 
+ 
+  
+  margin-left: 200px;
+  margin-bottom: 10px;
+
+}
+
+.row-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+
+
+.input-itemdata {
+  padding: 8px;
+  font-size: 1em;
+}
+
+.add-button-dash {
+  background-color: hsl(185, 30%, 43%);;
+  color: white;
+  border: none;
+  padding: 7px;
+  cursor: pointer;
+  width: 80px;
+  font-size: 17px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  margin-left: 150px;
+  margin-top: 10px;
+  
+}
+
+
+
+
+
+
+
+
+.upload-text{
+  margin-bottom: 5px;
+}
+.item-data-dash{
+  font-weight: bolder;
+  margin-bottom: 3px;
+}
+
+
+
+
+
+
+.input-itemdata {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  width:250px;
+}
+
+.input-itemdata1 {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width:20px;
+}
+
+
+.upload-dash{
+  
+  background-color: hsl(185, 30%, 43%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width:100px;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-left: 150px;
+  font-size: 17px;
+  
+}
+ .logout-button{
+  height:40px;
+  width: 120px;
+  border-radius: 10px;
+    background-color:rgb(90, 19, 189);
+    color: white;
+  margin-left: 50px;
+  border-width: 2px;
+  font-size: 18px;
+ cursor: pointer;
+} 
+
+.logout-responsive{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.logout-button-res{
+  display: none;
+}
+
+
+
+.plus-symbol{
+  
+
+  margin-right: 250px;
+}
+
+.add-button{
+  height: 30px;
+  width: 50px;
+  background-color: rgb(61, 18, 231);
+  border:  none;
+  border-radius: 10px;
+  color: white;
+  margin-left: 10px;
+}
+.add-button-product{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General adjustments for mobile */
+@media (max-width: 600px) {
+  .dashboard {
+    flex-direction: column;
+    align-items: flex-start;
+  
+    width: 100%
+  }
+
+ 
+  .product-heading {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .link-button {
+    height: 50px;
+    width: 100%;
+  }
+
+  .input-items {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .image{
+    height: 60px;
+    width: 60px;
+    
+    
+  }
+  .dashboard{
+    height: 100%;
+    width: 530px;
+
+  }
+  .logout-button-res{
+    height:40px;
+    width: 120px;
+    border-radius: 10px;
+    background-color:rgb(90, 19, 189);
+    color: white;
+    margin-left: 40px;
+    border-width: 2px;
+    font-size: 18px;
+   cursor: pointer;
+   display: block;
+  } 
+  .logout-button{
+    display: none;
+  }
+
+  .input-items-res{
+    display: block;
+    height: 35px;
+    width: 350px;
+    border-radius: 18px;
+    padding-left: 15px;
+    background-color:rgb(211, 237, 176);
+   
+    border-color: black;
+    color: white;
+    border-width: 1px;
+    margin-bottom: 20px;
+  }
+  .input-items{
+    display: none;
+  }
+  .input-items-res::placeholder {
+    font-size: 15px; 
+    color: black;
+    align-items: center;
+    
+  }
+  .add-button-product{
+    display: flex;
+    flex-direction: row;
+  }
+  .logout-responsive{
+    margin-bottom: 15px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+
+  }
+  .table {
+    display: none;
+  }
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(53, 191, 94, 0.1);
+    margin:50px;
+    width: 430px;
+    background-color: hsl(186, 20%, 70%);
+    justify-content: space-between;
+    
+  }
+ 
+  .product-card div {
+    margin: 5px 0;
+    border: 1px solid #a6888803;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(53, 191, 94, 0.1);
+    
+  }
+  .product-card label {
+    font-weight: bold;
+    
+  }
+  .product-card .actions {
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+
+  .size-headings{
+    font-size: 25px;
+  }
+  .heading-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    flex-wrap: wrap; 
+  }
+  .end-flex{
+    display: flex;
+  
+    justify-content: flex-end;
+  }
+  .heading-data{
+    width: 200px;
+  }
+  .popup {
+    width: 80%; /* Adjust width for smaller screens */
+    padding: 40px; /* Adjust padding for smaller screens */
+  }
+
+ 
+  
+}
+
+@media screen and (min-width:600px) {
+  .mobileView{
+    display:none;
+   
+    
+  }
+}
